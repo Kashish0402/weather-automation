@@ -1,0 +1,88 @@
+{
+    "Moscow": {
+        "location": {
+            "name": "Moscow",
+            "region": "Moscow City",
+            "country": "Russia",
+            "lat": 55.7522,
+            "lon": 37.6156,
+            "tz_id": "Europe/Moscow",
+            "localtime_epoch": 1747749700,
+            "localtime": "2025-05-20 17:01"
+        },
+        "current": {
+            "last_updated_epoch": 1747749600,
+            "last_updated": "2025-05-20 17:00",
+            "temp_c": 17.3,
+            "is_day": 1,
+            "condition": {
+                "text": "Partly cloudy",
+                "icon": "//cdn.weatherapi.com/weather/64x64/day/116.png",
+                "code": 1003
+            },
+            "humidity": 36
+        },
+        "forecast": {
+            "forecastday": [
+                {
+                    "date": "2025-05-20",
+                    "date_epoch": 1747699200,
+                    "day": {
+                        "maxtemp_c": 10.2,
+                        "mintemp_c": 5.8,
+                        "avgtemp_c": 8.0,
+                        "avghumidity": 78,
+                        "condition": {
+                            "text": "Patchy rain nearby",
+                            "icon": "//cdn.weatherapi.com/weather/64x64/day/176.png",
+                            "code": 1063
+                        }
+                    }
+                }
+            ]
+        }
+    },
+    "Rio de Janeiro": {
+        "location": {
+            "name": "Rio De Janeiro",
+            "region": "Rio de Janeiro",
+            "country": "Brazil",
+            "lat": -22.9,
+            "lon": -43.2333,
+            "tz_id": "America/Sao_Paulo",
+            "localtime_epoch": 1747749709,
+            "localtime": "2025-05-20 11:01"
+        },
+        "current": {
+            "last_updated_epoch": 1747749600,
+            "last_updated": "2025-05-20 11:00",
+            "temp_c": 25.3,
+            "is_day": 1,
+            "condition": {
+                "text": "Sunny",
+                "icon": "//cdn.weatherapi.com/weather/64x64/day/113.png",
+                "code": 1000
+            },
+            "humidity": 65
+        },
+        "forecast": {
+            "forecastday": [
+                {
+                    "date": "2025-05-20",
+                    "date_epoch": 1747699200,
+                    "day": {
+                        "maxtemp_c": 28.9,
+                        "mintemp_c": 19.4,
+                        "avgtemp_c": 23.5,
+                        "avghumidity": 63,
+                        "condition": {
+                            "text": "Sunny",
+                            "icon": "//cdn.weatherapi.com/weather/64x64/day/113.png",
+                            "code": 1000
+                        }
+                    }
+                }
+            ]
+        }
+    }
+}
