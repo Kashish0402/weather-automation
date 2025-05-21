@@ -34,26 +34,27 @@ weather-automation/
 
 git clone https://github.com/yourusername/weather-automation.git
 cd weather-automation
-2. Install dependencies
+
+###2. Install dependencies
 Create a virtual environment and install requirements:
 
 python -m venv venv
 source venv/bin/activate   # On Windows: venv\Scripts\activate
 pip install -r require.txt
 
-3. Set up .env
+###3. Set up .env
 Create a .env file in the root directory:
 WEATHER_API_KEY=your_weatherapi_key
 
-4. Run the project
+###4. Run the project
 python main.py
 
-📊 Output
+###📊 Output
 data/weather_comparison_report.csv — Compares forecast and actuals for temperature, humidity, and weather conditions.
 
 data/weather_data.json — Raw collected data for auditing or further analysis.
 
-🧪 Tech Stack
+###🧪 Tech Stack
 Python 3.x
 
 Playwright (optional scraping)
@@ -66,7 +67,7 @@ Tabulate
 
 dotenv
 
-📈 Future Enhancements
+###📈 Future Enhancements
 Add more metrics (e.g., wind speed, UV index)
 
 Schedule daily run using cron or Task Scheduler
